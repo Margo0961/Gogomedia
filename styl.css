@@ -1,0 +1,90 @@
+body {
+  background-color: #F1F6FC;
+}
+
+body header {
+  background-color: white;
+  width: 100%;
+  height: 80px;
+}
+
+body header .logo {
+  margin-left: 20%;
+}
+
+body .box {
+  background-color: #215398;
+  width: 100%;
+  height: 560px;
+  position: relative;
+}
+
+body .box .header-text {
+  color: white;
+  text-align: center;
+  padding: 3%;
+}
+
+body .box .header-paragraph {
+  color: white;
+  text-align: center;
+}
+
+body .three-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5%;
+}
+
+body .circle {
+  position: absolute;
+  right: 50%;
+  top: 640px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #FF3859;
+  z-index: 2;
+}
+
+body .heading-footer {
+  text-align: center;
+  margin: 5%;
+}
+
+body .heading-footer .footer-text {
+  color: black;
+}
+
+body .wrap {
+  background-color: white;
+  padding: 8%;
+  margin: 2%;
+}
+
+@media (max-width: 800px) {
+  .circle {
+    top: 640px;
+  }
+  .header-text {
+    font-size: medium;
+  }
+  .header-paragraph {
+    font-size: small;
+  }
+  .footer-text {
+    font-size: medium;
+    margin: 2%;
+  }
+  .footer-paragraph {
+    font-size: small;
+  }
+  .wrap h3 {
+    font-size: 15px;
+  }
+  .wrap p {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=styl.css.map */
